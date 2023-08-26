@@ -1,0 +1,118 @@
+/* ===================== MOBILE ======================= */
+
+@media screen and (max-width: 767px) {
+  .benefit-icon {
+    display: none;
+  }
+
+  .benefit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .benefit-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
+
+  .benefit-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* ===================== /MOBILE ======================= */
+
+/* ===================== TABLET ======================= */
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .benefit-icon {
+    display: none;
+  }
+
+  .benefit-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .benefit-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .benefit-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+    margin-bottom: 8px;
+  }
+
+  .benefit-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* ===================== /TABLET ======================= */
+
+/* ===================== DESKTOP ======================= */
+
+@media screen and (min-width: 1158px) {
+  .benefit-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--dark);
+  }
+
+  .benefit-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .benefit-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+  .benefit-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--light-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+
+  .benefit-title {
+    margin-bottom: 8px;
+  }
+
+  .benefit-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+}
+
+/* ===================== /DESKTOP ======================= */

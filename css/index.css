@@ -5,3 +5,7 @@
 @import './base/section.css';
 
 @import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/benefit.css';
+@import './layout/directions.css';
+@import './layout/team.css';
