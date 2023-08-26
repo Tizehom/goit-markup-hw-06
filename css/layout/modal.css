@@ -1,13 +1,14 @@
+/* ===================== MOBILE ======================= */
+
 @media screen and (max-width: 767px) {
   .modal {
     position: absolute;
-    max-width: 392px;
+    width: 100%;
+    max-width: 396px;
     top: 96px;
     left: 50%;
     padding: 72px 16px 24px;
     transform: translate(-50%, 0) scaleY(1);
-    transition: transform var(--transition-dur-and-func);
-    width: 408px;
     min-height: 584px;
     border-radius: 4px;
     background-color: #fcfcfc;
@@ -182,6 +183,10 @@
     border-radius: 4px;
   }
 }
+
+/* ===================== /MOBILE ======================= */
+
+/* ===================== TABLET ======================= */
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .modal {
@@ -363,6 +368,10 @@
     border-radius: 4px;
   }
 }
+
+/* ===================== /TABLET ======================= */
+
+/* ===================== DESKTOP ======================= */
 
 @media screen and (min-width: 1158px) {
   .modal {
@@ -567,3 +576,5 @@
     transition: background-color var(--transition-dur-and-func);
   }
 }
+
+/* ===================== /DESKTOP ======================= */
