@@ -59,6 +59,9 @@
   }
 
   .mobile-menu-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     position: relative;
     padding-top: 80px;
     padding-left: 40px;
@@ -92,7 +95,7 @@
   }
 
   .mobile-menu-nav {
-    margin-bottom: 284px;
+    margin-bottom: auto;
   }
 
   .mobile-menu-item {
@@ -111,6 +114,10 @@
 
   .current {
     color: var(--accent-color);
+  }
+
+  .mobile-contacts {
+    font-style: normal;
   }
 
   .mobile-contact-list {
@@ -141,7 +148,7 @@
 
   .mobile-soc-list {
     display: flex;
-    gap: 56px;
+    justify-content: space-between;
   }
 
   .mobile-soc-item {
